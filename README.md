@@ -27,9 +27,9 @@ We initialize the encoder using a pretrained ResNet-50 model from **BigEarthNet 
 The implementation relies on:
 
 ```python
-from reben_publication.BigEarthNetv2_0_ImageClassifier import BigEarthNetv2_0_ImageClassifier ```
+from reben_publication.BigEarthNetv2_0_ImageClassifier import BigEarthNetv2_0_ImageClassifier 
 
-
+```
 ## Repository Structure
 
 - `models/attention.py`: CBAM, channel attention, and spatial attention
