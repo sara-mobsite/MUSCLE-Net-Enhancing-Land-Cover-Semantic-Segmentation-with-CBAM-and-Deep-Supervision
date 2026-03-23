@@ -16,7 +16,16 @@ During training, the auxiliary branch is combined with the main segmentation out
 - **Auxiliary branch weight:** 0.10  
 
 The auxiliary weight of **0.10** was selected because it produced the best performance in our experiments.
+## Repository Structure
 
+- `models/attention.py`: CBAM, channel attention, and spatial attention
+- `models/muscle_net.py`: MUSCLE-Net architecture
+- `data/dataset.py`: DFC2020 data loading and preprocessing
+- `utils/losses.py`: deep-supervision loss with auxiliary branch weight 0.10
+- `utils/metrics.py`: IoU computation
+- `utils/seed.py`: reproducibility utilities
+- `train.py`: training script for repeated runs
+- `config.py`: experiment settings
 ### 🌱 Efficiency and Environmental Impact
 
 | Model | Time / Epoch (s) | Avg. Epochs (5 runs) | Emissions (kg CO₂eq / epoch) |
