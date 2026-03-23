@@ -4,4 +4,4 @@ Official implementation of MUSCLE-Net, a land-cover semantic segmentation model 
 
 The figure below illustrates the overall architecture of MUSCLE-Net, including the encoder, CBAM-enhanced decoder, and deep supervision branches.
 
-![MUSCLE-Net architecture](images/sys.png)
+![MUSCLE-Net architecture](images/systemAll.jpg)
