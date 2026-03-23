@@ -40,7 +40,7 @@ from reben_publication.BigEarthNetv2_0_ImageClassifier import BigEarthNetv2_0_Im
 - `utils/seed.py`: reproducibility utilities
 - `train.py`: training script for repeated runs
 - `config.py`: experiment settings
-### 🌱 Efficiency and Environmental Impact
+### Efficiency and Environmental Impact
 
 | Model | Time / Epoch (s) | Avg. Epochs (5 runs) | Emissions (kg CO₂eq / epoch) |
 |-------|-------------------|----------------------|-------------------------------|
@@ -49,3 +49,6 @@ from reben_publication.BigEarthNetv2_0_ImageClassifier import BigEarthNetv2_0_Im
 | DeepLabV3 | 217.69 | 73.4 ± 30.07 | 0.000053 |
 | PSPNet | 45.00 | 75.6 ± 25.77 | 0.000012 |
 
+## Paper
+
+S. Mobsite et al., *Enhancing Land Cover Semantic Segmentation with Convolutional Block Attention Modules and Deep Supervision*, submitted to **Artificial Intelligence in Geosciences**.
