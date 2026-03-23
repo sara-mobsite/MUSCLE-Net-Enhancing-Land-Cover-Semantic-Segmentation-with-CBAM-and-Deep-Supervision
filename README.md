@@ -16,6 +16,17 @@ During training, the auxiliary branch is combined with the main segmentation out
 - **Auxiliary branch weight:** 0.10  
 
 The auxiliary weight of **0.10** was selected because it produced the best performance in our experiments.
+
+### Encoder Backbone
+
+We initialize the encoder using a pretrained ResNet-50 model from **BigEarthNet v2.0**, a large-scale remote sensing dataset.
+
+🔗 https://bigearth.net/
+
+The implementation relies on:
+
+```python
+from reben_publication.BigEarthNetv2_0_ImageClassifier import BigEarthNetv2_0_ImageClassifier
 ## Repository Structure
 
 - `models/attention.py`: CBAM, channel attention, and spatial attention
