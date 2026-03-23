@@ -6,7 +6,16 @@ The figure below illustrates the overall architecture of MUSCLE-Net, including t
 
 ![MUSCLE-Net architecture](images/systemAll.jpg)
 
+## Model Details
 
+The proposed MUSCLE-Net uses a CBAM-enhanced decoder and **one auxiliary deep-supervision branch generated at resolution H/4 × W/4**.
+
+During training, the auxiliary branch is combined with the main segmentation output using:
+
+- **Main loss weight:** 0.90  
+- **Auxiliary branch weight:** 0.10  
+
+The auxiliary weight of **0.10** was selected because it produced the best performance in our experiments.
 
 ### 🌱 Efficiency and Environmental Impact
 
